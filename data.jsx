@@ -32,7 +32,7 @@ const PROGRAMS = [
       {n:'CH_06', t:'Results Gallery', d:'2 min', s:'Performance read + next-session plan.'},
       {n:'CH_07', t:'Debrief', d:'2 min', s:'Instructor notes + bookmarks.'}
     ],
-    instructor: { name:'Dr. Kartik Rangaraj', role:'Founder · Apex Academy', bio:'Founder of Apex Academy. Scripts every chapter and owns the pedagogical architecture.' }
+    instructor: { name:'Dr. Kartik "Carlo" RangaRaj', role:'Founder · Assistant Professor, Medical Sciences — Khalifa University CMHS', bio:'Founder of Apex Academy. Scripts every chapter and owns the pedagogical architecture.' }
   },
   {
     slug: 'engineering-ev-safety',
@@ -63,7 +63,7 @@ const PROGRAMS = [
       {n:'CH_04', t:'Field Diagnostic', d:'3 min', s:'Step-by-step live scenario.'},
       {n:'CH_05', t:'Debrief', d:'2 min', s:'Voice instructor recap.'}
     ],
-    instructor: { name:'Dr. Kartik Rangaraj', role:'Founder · Apex Academy', bio:'Founder of Apex Academy.' }
+    instructor: { name:'Dr. Kartik "Carlo" RangaRaj', role:'Founder · Assistant Professor, Medical Sciences — Khalifa University CMHS', bio:'Founder of Apex Academy.' }
   },
   {
     slug: 'biochemistry-molecular',
@@ -97,7 +97,7 @@ const PROGRAMS = [
       {n:'CH_07', t:'Recall Lab', d:'—', s:'Spaced recall (d+1, d+7, d+30).'},
       {n:'CH_08', t:'Debrief', d:'—', s:'Instructor notes.'}
     ],
-    instructor: { name:'Dr. Kartik Rangaraj', role:'Founder · Apex Academy', bio:'Co-designing pedagogy with partner faculty TBA Q3 2026.' }
+    instructor: { name:'Dr. Kartik "Carlo" RangaRaj', role:'Founder · Assistant Professor, Medical Sciences — Khalifa University CMHS', bio:'Co-designing pedagogy with partner faculty TBA Q3 2026.' }
   },
   {
     slug: 'nutrition',
@@ -128,7 +128,7 @@ const PROGRAMS = [
       {n:'CH_05', t:'Large Intestine', d:'—', s:'TBD'},
       {n:'CH_06', t:'Integration Viva', d:'—', s:'TBD'}
     ],
-    instructor: { name:'Dr. Kartik Rangaraj', role:'Founder · Apex Academy', bio:'Faculty partnership pending.' }
+    instructor: { name:'Dr. Kartik "Carlo" RangaRaj', role:'Founder · Assistant Professor, Medical Sciences — Khalifa University CMHS', bio:'Faculty partnership pending.' }
   }
 ];
 
@@ -140,8 +140,8 @@ const STATUS_META = {
 };
 
 const TEAM = [
-  { name:'Dr. Kartik Rangaraj', role:'Founder', loc:'Abu Dhabi · UAE',
-    bio:'Founder of Apex Academy.',
+  { name:'Dr. Kartik "Carlo" RangaRaj', role:'Founder · Assistant Professor, Medical Sciences — Khalifa University CMHS', loc:'Abu Dhabi · UAE',
+    bio:'Founder of Apex Academy. Working at the intersection of medicine, AI, and extended reality.',
     stats:[] }
 ];
 
@@ -159,11 +159,11 @@ const CASE_STUDIES = [
       ['Student Data', 'COLLECTING Q3 2026', 'amber'],
       ['Next Review', 'Q3 2026', 'hud']
     ],
-    quote:`Students don't just watch the chapter — they're inside the subject. That is the difference we built Apex to measure.`,
-    quoteBy:'Dr. Kartik Rangaraj · Founder, Apex Academy',
-    context:'First-year medical humanities at Khalifa had solid content and weak engagement — students were passing but not retaining. Lectures were 50 min, readings were 40 pages. The failure was architectural, not editorial.',
-    solution:'We rebuilt Ch.1 of HUMA 156 as a walkable VR atrium with seven doors — one per biosocial case. The AI tutor follows the student. A viva at each gate unlocks the next. Runtime: 25 min. Retries unlimited. Pilot data collection begins Q3 2026.',
-    event:{ name:'MetaHub Demo', when:'April 22, 2026', where:'Abu Dhabi · Khalifa University', audience:'University president + ~50 attendees', outcome:'Approved to continue. Ch.2 scoped for Q3 2026.' }
+    quote:`The learner of 2030 will not memorize a system. They will inhabit it. The physician of 2030 will rehearse a surgery a hundred times before ever holding the scalpel.`,
+    quoteBy:'Dr. Kartik "Carlo" RangaRaj · Founder, Apex Academy · Khalifa University CMHS',
+    context:'A defining moment at Khalifa University — as H.E. Prof. Ebrahim Al Hajri (President, Khalifa University) and H.E. Mohamed Al Qadi (Abu Dhabi Department of Education and Knowledge / ADEK) articulated a shared vision for the next era of learning in the UAE. First-year medical humanities at Khalifa had solid content and weak engagement. The failure was architectural, not editorial.',
+    solution:'We rebuilt Ch.1 of HUMA 156 as a walkable VR atrium with seven doors — one per biosocial case. An AI tutor follows the student. A viva at each gate unlocks the next. Runtime: 25 min. Retries unlimited. In alignment with the Khalifa University × ADEK national education architecture linking K-12, higher education, and workforce-ready talent. Pilot data collection begins Q3 2026.',
+    event:{ name:'Khalifa University Showcase', when:'April 22, 2026', where:'Abu Dhabi · Khalifa University', audience:'H.E. Prof. Ebrahim Al Hajri (Khalifa President), H.E. Mohamed Al Qadi (ADEK), and ~50 attendees', outcome:'Approved to continue. Ch.2 scoped for Q3 2026.' }
   },
   {
     slug:'ev-high-voltage',

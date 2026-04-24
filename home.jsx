@@ -22,10 +22,10 @@ function HomePage(){
                 APEX ACADEMY — VR EDUCATION INFRASTRUCTURE
               </div>
               <h1 className="display text-[clamp(56px,9vw,148px)]">
-                LEARN<br/><span className="slash">/</span> BEYOND<br/><span className="slash">/</span> SCREENS
+                THE CLASSROOM<br/><span className="slash">/</span> IS NO LONGER<br/><span className="slash">/</span> A ROOM
               </h1>
               <p className="mt-8 max-w-md text-[17px] leading-[1.75] font-light text-ink/85">
-                Immersive VR curricula built ground-up for universities. Deployed across Meta Quest, Pico, and WebXR.
+                Apex Academy builds immersive VR curricula for universities at the intersection of medicine, AI, and extended reality. Deployed across Meta Quest, Pico, and WebXR.
               </p>
               <div className="mt-10 flex flex-wrap items-center gap-6">
                 <Link to="/programs" className="btn-glass">Explore Programs <span className="arrow">→</span></Link>
@@ -147,13 +147,13 @@ function HomePage(){
           <Reveal>
             <div className="text-cyan display text-[80px] leading-none">"</div>
             <blockquote className="serif-italic text-[clamp(30px,4.2vw,56px)] leading-[1.2] text-ink/95 mt-2">
-              Students don't just watch the chapter. They're <em style={{color:'#4A8BD6'}}>inside</em> the subject. That is the difference we built Apex to measure.
+              The learner of 2030 will not memorize a system. They will <em style={{color:'#4A8BD6'}}>inhabit</em> it.
             </blockquote>
             <div className="mt-10 flex items-center justify-center gap-4">
               <div className="w-14 h-14 rounded-full img-crystal"></div>
               <div className="text-left">
-                <div className="font-display font-semibold text-[16px]">Dr. Kartik Rangaraj</div>
-                <div className="label-muted">Founder · Apex Academy</div>
+                <div className="font-display font-semibold text-[16px]">Dr. Kartik "Carlo" RangaRaj</div>
+                <div className="label-muted">Founder · Khalifa University CMHS</div>
               </div>
             </div>
           </Reveal>
