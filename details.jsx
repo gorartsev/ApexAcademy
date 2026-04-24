@@ -5,7 +5,7 @@ function ProgramDetailPage({ slug }){
   const [open, setOpen] = useState(0);
   if (!p) return <Page><div className="px-6 py-24 max-w-[800px] mx-auto text-center"><div className="label mb-4">404</div><h1 className="display text-[64px]">PROGRAM <span className="slash">/</span> NOT FOUND</h1><Link to="/programs" className="btn-ghost mt-8 inline-flex">← Back to library</Link></div></Page>;
   const related = PROGRAMS.filter(x=>x.slug!==slug).slice(0,3);
-  const coverCls = p.cover==='img-horizon'?'img-dome':p.cover==='img-blue'?'img-atrium':p.cover==='img-lab'?'img-lab':'img-crystal';
+  const coverCls = p.cover;
   return (
     <Page>
       {/* Hero */}
@@ -149,7 +149,7 @@ function ProgramDetailPage({ slug }){
           <h2 className="display text-[clamp(32px,4.5vw,60px)] mb-10">MORE <span className="slash">/</span> SYSTEMS</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {related.map(r=>{
-              const rc = r.cover==='img-horizon'?'img-dome':r.cover==='img-blue'?'img-atrium':'img-crystal';
+              const rc = r.cover;
               return (
                 <Link key={r.slug} to={`/programs/${r.slug}`} className="block">
                   <div className="glass corners overflow-hidden" data-hover>

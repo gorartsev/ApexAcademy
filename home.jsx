@@ -21,7 +21,7 @@ function HomePage(){
                 <span className="w-1.5 h-1.5 rounded-full bg-cyan dot-pulse" style={{boxShadow:'0 0 10px #6DC4E8'}}></span>
                 APEX ACADEMY — VR EDUCATION INFRASTRUCTURE
               </div>
-              <h1 className="display text-[clamp(56px,9vw,148px)]">
+              <h1 className="display text-[clamp(40px,6vw,96px)]">
                 THE CLASSROOM<br/><span className="slash">/</span> IS NO LONGER<br/><span className="slash">/</span> A ROOM
               </h1>
               <p className="mt-8 max-w-md text-[17px] leading-[1.75] font-light text-ink/85">
@@ -76,7 +76,7 @@ function HomePage(){
                 <Link to={`/programs/${p.slug}`} className="block">
                   <div className="glass corners overflow-hidden" data-hover>
                     <Corners/>
-                    <div className={'relative h-56 '+(p.cover==='img-horizon'?'img-dome':p.cover==='img-blue'?'img-atrium':'img-crystal')}>
+                    <div className={'relative h-56 '+p.cover}>
                       <div className="ray absolute inset-0"></div>
                       <div className="absolute top-4 left-4"><StatusPill status={p.status}/></div>
                       <div className="absolute top-4 right-4 mono text-[11px] text-ink/70 tracking-widest">{p.id}</div>

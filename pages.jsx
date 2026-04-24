@@ -11,7 +11,7 @@ function ProgramsPage(){
         tag="Curriculum Library"
         title={<>PROGRAM <span className="slash">/</span> LIBRARY</>}
         sub="Four programs in flight across Humanities, Engineering, Biochemistry, and Nutrition. Select any to walk its chapter architecture."
-        imgCls="img-library"
+        imgCls="img-atrium"
       />
       <section className="px-6 pb-4">
         <div className="max-w-[1440px] mx-auto">
@@ -98,7 +98,7 @@ function AboutPage(){
         tag="Our Mission"
         title={<>CURRICULUM <span className="slash">/</span> AS ARCHITECTURE</>}
         sub="We believe the next leap in education is spatial. Not more pages, not faster videos — a place students walk into."
-        imgCls="img-atrium"
+        imgCls="img-library"
       />
 
       <section className="px-6 py-20">
@@ -205,7 +205,7 @@ function CaseIndexPage(){
         tag="Deployment Evidence"
         title={<>WHERE APEX <span className="slash">/</span> LANDS</>}
         sub="Two live deployments. Both publicly documented. Both measurably moved the needle."
-        imgCls="img-dome"
+        imgCls="img-horizon"
       />
       <section className="px-6 py-12">
         <div className="max-w-[1440px] mx-auto space-y-6">
@@ -254,7 +254,7 @@ function RoadmapPage(){
         tag="Forward"
         title={<>ROADMAP <span className="slash">/</span> 2026–27</>}
         sub="Public, updated quarterly. What's shipped, what's in production, what's planned."
-        imgCls="img-horizon"
+        imgCls="img-sky"
       />
       <section className="px-6 py-12">
         <div className="max-w-[1200px] mx-auto relative">

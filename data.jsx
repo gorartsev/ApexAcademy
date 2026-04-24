@@ -14,7 +14,7 @@ const PROGRAMS = [
     language: 'EN',
     release: '2026.04',
     platforms: ['Meta Quest 2/3/Pro','Pico 4','WebXR'],
-    cover: 'img-horizon',
+    cover: 'img-atrium',
     summary: 'A 25-minute VR expedition through the biosocial model of medicine — an atrium of case studies students walk through, not a PDF they skim.',
     objectives: [
       'Locate the patient within nested social, biological, and historical systems',
