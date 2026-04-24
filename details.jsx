@@ -17,7 +17,8 @@ function ProgramDetailPage({ slug }){
             <span className="text-ink">{p.id}</span>
           </div>
           <div className="relative">
-            <div className={'h-[460px] rounded '+coverCls+' relative overflow-hidden'}>
+            <div className="h-[460px] rounded relative overflow-hidden">
+              <HeroBg imgCls={coverCls} video={p.video} poster={p.poster} className="rounded" />
               <div className="ray absolute inset-0"></div>
             </div>
             <div className="absolute left-8 right-8 bottom-8 flex items-end justify-between gap-4">

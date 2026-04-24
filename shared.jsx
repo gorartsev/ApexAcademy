@@ -150,7 +150,28 @@ function Footer(){
 
 function Page({ children }){ return <main className="relative z-10 page-enter pt-28">{children}</main>; }
 
-function PageHero({ crumbs=[], tag, title, sub, imgCls='img-cloud', children }){
+// HeroBg — background for hero sections.
+// If `video` is provided, renders an autoplaying muted loop with the gradient/poster underneath as fallback.
+// If `video` is omitted, just renders the gradient placeholder (or real image when .img-* CSS is swapped to background-image).
+function HeroBg({ imgCls='img-cloud', video, poster, className='', style }){
+  const fallback = <div className={'absolute inset-0 '+imgCls+' '+className} style={style}></div>;
+  if (!video) return fallback;
+  return (
+    <>
+      {fallback}
+      <video
+        autoPlay loop muted playsInline
+        poster={poster}
+        className={'absolute inset-0 w-full h-full object-cover '+className}
+        style={style}
+      >
+        <source src={video} type="video/mp4" />
+      </video>
+    </>
+  );
+}
+
+function PageHero({ crumbs=[], tag, title, sub, imgCls='img-cloud', video, poster, children }){
   return (
     <section className="relative px-6 pt-8 pb-16">
       <div className="max-w-[1440px] mx-auto">
@@ -165,7 +186,9 @@ function PageHero({ crumbs=[], tag, title, sub, imgCls='img-cloud', children }){
           </div>
         )}
         <div className="relative">
-          <div className={'absolute inset-0 '+imgCls+' rounded opacity-60'} style={{height:'420px'}}></div>
+          <div className="absolute inset-0 rounded overflow-hidden" style={{height:'420px'}}>
+            <HeroBg imgCls={imgCls} video={video} poster={poster} className="opacity-60 rounded" />
+          </div>
           <div className="ray absolute inset-0" style={{height:'420px'}}></div>
           <div className="relative pt-16 pb-4">
             {tag && <div className="label mb-5">{tag}</div>}
@@ -178,6 +201,8 @@ function PageHero({ crumbs=[], tag, title, sub, imgCls='img-cloud', children }){
     </section>
   );
 }
+
+window.HeroBg = HeroBg;
 
 function ProgramBand({ p }){
   return (
