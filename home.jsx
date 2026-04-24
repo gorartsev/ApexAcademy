@@ -6,7 +6,7 @@ function HomePage(){
     <Page>
       {/* HERO */}
       <section className="relative min-h-[90vh] flex items-center px-6 overflow-hidden -mt-28 pt-28">
-        <HeroBg imgCls="img-cloud" video="./images/hero-home.mp4" poster="./images/hero-vr-student.webp" />
+        <HeroBg imgCls="img-cloud" video="./images/hero-loop.mp4" poster="./images/about-classroom.webp" />
         <div className="absolute inset-0 ray"></div>
         {/* massive fade wordmark */}
         <div className="absolute -right-10 top-1/2 -translate-y-1/2 pointer-events-none select-none">
