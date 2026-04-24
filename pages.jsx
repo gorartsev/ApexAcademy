@@ -383,9 +383,9 @@ function PressPage(){
       <section className="px-6 py-12 max-w-[1100px] mx-auto">
         <div className="glass corners p-10"><Corners/>
           <div className="label mb-3">Boilerplate</div>
-          <p className="text-[15.5px] leading-[1.75] text-ink/85 font-light max-w-3xl">Apex Academy is a VR-native education company building immersive curricula for universities. Founded in 2024, Apex shipped its first chapter — HUMA 156 Biosocial Humanity — to Khalifa University in April 2026. Headquartered between Da Nang and Abu Dhabi.</p>
+          <p className="text-[15.5px] leading-[1.75] text-ink/85 font-light max-w-3xl">Apex Academy is a VR-native education company building immersive curricula for universities. Founded in 2024, Apex shipped its first chapter — HUMA 156 Biosocial Humanity — to Khalifa University in April 2026. Headquartered in Abu Dhabi.</p>
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3">
-            {[['Founded','Q4 2024'],['HQ','Da Nang · Abu Dhabi'],['Partner','Khalifa University'],['Chapters','12 Live']].map(([l,v])=>(
+            {[['Founded','Q4 2025'],['HQ','Abu Dhabi'],['Partner','Khalifa University'],['Programs','2 Live']].map(([l,v])=>(
               <div key={l} className="glass-light p-4"><div className="label-muted text-[9px]">{l}</div><div className="display text-[22px] mt-1">{v}</div></div>
             ))}
           </div>

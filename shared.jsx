@@ -135,7 +135,7 @@ function Footer(){
           <div>
             <div className="label-muted mb-4">Contact</div>
             <div className="mono text-[12px] leading-[1.9] text-ink/80">hq@apex.academy</div>
-            <div className="mono text-[12px] leading-[1.9] text-ink/80">Abu Dhabi · Da Nang</div>
+            <div className="mono text-[12px] leading-[1.9] text-ink/80">Abu Dhabi</div>
             <div className="mt-4 label">In partnership with</div>
             <div className="font-display font-semibold text-[18px] mt-1">Khalifa University</div>
           </div>
